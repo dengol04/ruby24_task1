@@ -1,4 +1,4 @@
-require "levenshtein"
+require 'levenshtein'
 
 def get_list_of_contestant
   file_path = 'log.txt'

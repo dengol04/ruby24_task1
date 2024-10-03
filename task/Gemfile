@@ -1,3 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'levenshtein', '~> 0.2.2'
+gem 'levenshtein-ffi'
+gem 'rubocop'
+gem 'ruby-lsp'
+gem 'sorbet-runtime'
+gem 'sorbet'
+gem 'tapioca'
