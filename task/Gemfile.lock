@@ -1,0 +1,13 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    levenshtein (0.2.2)
+
+PLATFORMS
+  x64-mingw-ucrt
+
+DEPENDENCIES
+  levenshtein (~> 0.2.2)
+
+BUNDLED WITH
+   2.5.16
