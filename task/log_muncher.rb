@@ -12,19 +12,17 @@ def get_list_of_contestant
         hash[contestant] += 1
         break
       end
-      if Levenshtein.distance(k, contestant) < 5
+      if Levenshtein.distance(k, contestant) < 3
         hash[k] += 1
         break
       end
       count += 1
     end
-    if count == hash.size()
-      hash[contestant] = 1
-    end
+    hash[contestant] = 1 if count == hash.size
   end
 
   hash
 end
 
-puts get_list_of_contestant.max_by{|k,v| v}
-#puts levenshtein_distance("павпв", "пвапжззз")
+puts(get_list_of_contestant.max_by { |k, v| v })
+# puts levenshtein_distance("павпв", "пвапжззз")
