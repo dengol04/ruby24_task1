@@ -75,7 +75,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  levenshtein-ffi
+  levenshtein-ffi (~> 1.1)
   rubocop
   ruby-lsp
   sorbet
